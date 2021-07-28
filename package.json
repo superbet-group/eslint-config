@@ -2,7 +2,10 @@
   "name": "@superbet-group/typescript.eslint-config",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/superbet-group/typescript.eslint-config.git",
+  "repository": {
+    "type": "git",
+    "url": "ssh://github.com/superbet-group/typescript.eslint-config.git"
+  },
   "description": "Shared eslint configuration",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/",

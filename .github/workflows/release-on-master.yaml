@@ -1,4 +1,4 @@
-name: Release master branch
+name: Release on master branch
 on:
   push:
     branches:
@@ -8,12 +8,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+
       - uses: actions/setup-node@v1
         with:
           node-version: 12
 
-      - name: Semantic - Release
-        run: npx semantic-release
+      - name: Semantic - Get Version
+        uses: cycjimmy/semantic-release-action@v2
+        id: semantic_version
+        with:
+          extra_plugins: |
+            @semantic-release/git
+            @semantic-release/exec
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
