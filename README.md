@@ -1,2 +1,3 @@
 # typescript.eslint-config
-Shared eslint and prettier configuration
+
+Shared eslint and configuration
