@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/superbet-group/typescript.eslint-config.git",
-  "license": "MIT",
   "description": "Shared eslint configuration",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/",
@@ -14,9 +13,7 @@
     "prettier": "^2.3.2"
   },
   "lint-staged": {
-    "*.{js,ts,tsx}": "eslint --fix",
-    "*.js": "eslint --cache --fix",
-    "*.{js,css,md}": "prettier --write"
+    "*.{js,ts,tsx}": "eslint --fix"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.28.5",
