@@ -13,9 +13,8 @@ jobs:
         with:
           node-version: 12
 
-      - name: Semantic - Get Version
+      - name: Release
         uses: cycjimmy/semantic-release-action@v2
-        id: semantic_version
         with:
           extra_plugins: |
             @semantic-release/git
