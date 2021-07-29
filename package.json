@@ -1,5 +1,5 @@
 {
-  "name": "@superbet-group/typescript.eslint-config-superbet",
+  "name": "@superbet-group/eslint-config-superbet",
   "version": "1.0.0",
   "main": "index.js",
   "repository": {
