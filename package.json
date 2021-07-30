@@ -7,13 +7,17 @@
     "url": "ssh://github.com/superbet-group/typescript.eslint-config.git"
   },
   "description": "Shared eslint configuration",
+  "scripts": {
+    "test": "eslint test"
+  },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/",
     "tag": "latest"
   },
   "peerDependencies": {
-    "eslint": "^7.31.0",
-    "prettier": "^2.3.2"
+    "eslint": "7.x",
+    "prettier": "2.x",
+    "typescript": "4.x"
   },
   "lint-staged": {
     "*.{js,ts,tsx}": "eslint --fix"

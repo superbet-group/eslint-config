@@ -1,11 +1,46 @@
-# typescript.eslint-config
+# Superbet Shared ESLint Config
 
-## Add to your repository
+ESLint statically analyzes your code to quickly find problems. ESLint is built into most text editors and you can run ESLint as part of your continuous integration pipeline.
 
-`npm i @superbet-group/typescript.eslint-config --save-dev`
+- [Getting Started](https://eslint.org/docs/user-guide/getting-started)
+- [Configuring](https://eslint.org/docs/user-guide/configuring)
+- [Rules](https://eslint.org/docs/rules/)
+- [Shareable Configs](https://eslint.org/docs/developer-guide/shareable-configs)
 
-`echo "module.exports = {extends: ['@superbet-group/typescript.eslint-config']}" > .eslintrc.js`
+## Add to a Project
 
+### Install Configuration
+
+```bash
+npm install @superbet-group/typescript.eslint-config --save-dev
+```
+
+Also add Peer Dependencies:
+
+```bash
+npm install eslint prettier typescript --save-dev
+```
+
+### Add to ESLint Configuration
+
+```json
+{
+  "extends": "@superbet-group/typescript.eslint-config"
+}
+```
+
+_Using `.eslintrc` file_
+
+Or
+
+```js
+module.exports = {
+  extends: "@superbet-group/typescript.eslint-config",
+};
+```
+
+_Using `.eslintrc.js` file_
 
 ## Suggestions?
+
 Create a discussion on `#tech-frontend-developers` Slack channel and open a PR.
