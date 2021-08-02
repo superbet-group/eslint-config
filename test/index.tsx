@@ -7,11 +7,9 @@ export function inverseSqrt(x: number): number {
 
 // function that rotates a 2 dimensional array to the left
 export function rotate2DArrayLeft(array: number[][]): number[][] {
-  return array.map((row, i) => {
-    return array.map((col, j) => {
-      return array[j][array.length - i - 1];
-    });
-  });
+  return array.map((row, i) =>
+    array.map((col, j) => array[j][array.length - i - 1])
+  );
 }
 
 function reverse(x: string): string {
@@ -165,14 +163,8 @@ export function mergeKLists(lists: ListNode[]): ListNode {
     if (!innerLists.length) {
       return;
     }
-    const min = Math.min(
-      ...innerLists.map((x) => {
-        return x.val;
-      })
-    );
-    const partial = innerLists.filter((x) => {
-      return x.val === min;
-    });
+    const min = Math.min(...innerLists.map((x) => x.val));
+    const partial = innerLists.filter((x) => x.val === min);
     current.next = new ListNode(min);
     current = current.next;
     helper(partial);

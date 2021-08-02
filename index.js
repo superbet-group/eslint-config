@@ -73,7 +73,6 @@ module.exports = {
     ],
     "no-multiple-empty-lines": ["error", { max: 1, maxBOF: 0, maxEOF: 1 }],
     curly: ["error", "all"],
-    "arrow-body-style": ["error", "always"],
   },
   settings: {
     "import/resolver": {
