@@ -12,7 +12,7 @@ ESLint statically analyzes your code to quickly find problems. ESLint is built i
 ### Install Configuration
 
 ```bash
-npm install @superbet-group/typescript.eslint-config --save-dev
+npm install @superbet-group/eslint-config --save-dev
 ```
 
 Also add Peer Dependencies:
@@ -25,7 +25,7 @@ npm install eslint prettier typescript --save-dev
 
 ```json
 {
-  "extends": "@superbet-group/typescript.eslint-config"
+  "extends": "@superbet-group/eslint-config"
 }
 ```
 
@@ -35,7 +35,7 @@ Or
 
 ```js
 module.exports = {
-  extends: "@superbet-group/typescript.eslint-config",
+  extends: "@superbet-group/eslint-config",
 };
 ```
 
