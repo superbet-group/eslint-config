@@ -7,8 +7,8 @@ export function inverseSqrt(x: number): number {
 
 // function that rotates a 2 dimensional array to the left
 export function rotate2DArrayLeft(array: number[][]): number[][] {
-  return array.map((row, i) =>
-    array.map((col, j) => array[j][array.length - i - 1])
+  return array.map((_row, i) =>
+    array.map((_col, j) => array[j][array.length - i - 1])
   );
 }
 

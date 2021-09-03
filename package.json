@@ -23,8 +23,7 @@
     "*.{js,ts,tsx}": "eslint --fix"
   },
   "files": [
-    "index.js",
-    "tsconfig.json"
+    "index.js"
   ],
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.28.5",
