@@ -85,6 +85,7 @@ module.exports = {
       },
     },
     "import/extensions": [".js", ".ts", ".mjs", ".jsx", ".tsx"],
+    typescript: {},
   },
   overrides: [
     {
