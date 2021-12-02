@@ -12,7 +12,7 @@ ESLint statically analyzes your code to quickly find problems. ESLint is built i
 ### Install Configuration
 
 ```bash
-npm install @superbet-group/eslint-config --save-dev
+npm install @superbet/eslint-config --save-dev
 ```
 
 Also add Peer Dependencies:
@@ -25,7 +25,7 @@ npm install eslint prettier typescript --save-dev
 
 ```json
 {
-  "extends": "@superbet-group/eslint-config"
+  "extends": "@superbet/eslint-config"
 }
 ```
 
@@ -35,7 +35,7 @@ Or
 
 ```js
 module.exports = {
-  extends: "@superbet-group/eslint-config",
+  extends: "@superbet/eslint-config",
 };
 ```
 
@@ -43,4 +43,4 @@ _Using `.eslintrc.js` file_
 
 ## Suggestions?
 
-Create a discussion on `#tech-frontend-developers` Slack channel and open a PR.
+Create a discussion on [GitHub](https://github.com/superbet-group/eslint-config/discussions) or [learn how to make a contribution](https://github.com/firstcontributions/first-contributions).
