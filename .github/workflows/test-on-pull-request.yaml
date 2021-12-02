@@ -1,0 +1,24 @@
+# GitHub workflow that runs tests on pull requests
+name: Test on Pull Request
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [12.x, 14.x, 16.x]
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run tests on Node.JS ${{  matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{  matrix.node-version }}
+      - run: npm ci
+      - run: npm test
