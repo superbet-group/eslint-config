@@ -1,3 +1,5 @@
+![@superbet/eslint-config logo](/logo.svg "ESLint logo with Superbet colors")
+
 # Superbet Shared ESLint Config
 
 ESLint statically analyzes your code to quickly find problems. ESLint is built into most text editors and you can run ESLint as part of your continuous integration pipeline.
