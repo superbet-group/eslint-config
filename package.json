@@ -17,7 +17,8 @@
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org",
-    "tag": "latest"
+    "tag": "latest",
+    "access": "public"
   },
   "peerDependencies": {
     "eslint": "7.x",
