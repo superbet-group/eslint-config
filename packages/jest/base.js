@@ -1,4 +1,5 @@
 module.exports = {
+  plugins: ["jest"],
   rules: {
     // Have control over test and it usages
     // https://github.com/jest-community/eslint-plugin-jest/blob/HEAD/docs/rules/consistent-test-it.md
