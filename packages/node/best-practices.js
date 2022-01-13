@@ -1,4 +1,5 @@
 module.exports = {
+  plugins: ["node"],
   rules: {
     // disallow deprecated APIs
     // https://github.com/mysticatea/eslint-plugin-node/blob/HEAD/docs/rules/no-deprecated-api.md

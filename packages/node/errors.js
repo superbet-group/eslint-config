@@ -1,4 +1,5 @@
 module.exports = {
+  plugins: ["node"],
   rules: {
     // ensure Node.js-style error-first callback pattern is followed
     // https://github.com/mysticatea/eslint-plugin-node/blob/HEAD/docs/rules/no-callback-literal.md
