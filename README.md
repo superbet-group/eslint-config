@@ -45,4 +45,4 @@ _Using `.eslintrc.js` file_
 
 ## Suggestions?
 
-Create a discussion on [GitHub](https://github.com/superbet-group/eslint-config/discussions) or [learn how to make a contribution](https://github.com/firstcontributions/first-contributions).
+Create a discussion on [GitHub](/discussions) or [learn how to make a contribution](https://github.com/firstcontributions/first-contributions).

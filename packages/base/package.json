@@ -1,0 +1,16 @@
+{
+  "name": "@superbet/eslint-config-base",
+  "version": "1.0.0",
+  "description": "Base ESLint configuration, used at Superbet",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint -c ./index.js test"
+  },
+  "dependencies": {
+    "confusing-browser-globals": "1.0.11",
+    "eslint-plugin-import": "2.25.4"
+  },
+  "devDependencies": {
+    "eslint": "8.6.0"
+  }
+}

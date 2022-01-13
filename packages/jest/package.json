@@ -1,0 +1,16 @@
+{
+  "name": "@superbet/eslint-config-jest",
+  "version": "1.0.0",
+  "description": "ESLint configuration for Jest projects, used at Superbet",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint test"
+  },
+  "dependencies": {
+    "eslint-plugin-jest": "25.3.4"
+  },
+  "devDependencies": {
+    "eslint": "8.6.0",
+    "jest": "27.4.7"
+  }
+}
