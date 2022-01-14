@@ -39,7 +39,7 @@ export function convert(s: string, numRows: number): string {
   if (numRows === 1) {
     return s;
   }
-  const rows = [];
+  const rows: string[] = [];
   for (let i = 0; i < numRows; i += 1) {
     rows.push("");
   }
@@ -92,7 +92,7 @@ export function letterCombinations(digits: string): string[] {
     8: "tuv",
     9: "wxyz",
   };
-  const result = [];
+  const result: string[] = [];
   const helper = (partial: string, index: number, string: string): void => {
     if (index === digits.length) {
       result.push(string);
@@ -109,7 +109,7 @@ export function letterCombinations(digits: string): string[] {
 
 // 22. Generate Parentheses https://leetcode.com/problems/generate-parentheses/
 export function generateParenthesis(n: number): string[] {
-  const result = [];
+  const result: string[] = [];
   const helper = (partial: string, left: number, right: number): void => {
     if (left === right && left === n) {
       result.push(partial);
@@ -139,7 +139,7 @@ export function isValid(s: string): boolean {
       stack.push(s[i]);
       continue;
     }
-    if (stack.length || mapping[stack.pop()] !== s[i]) {
+    if (stack.length || mapping[stack.pop() as string] !== s[i]) {
       return false;
     }
   }
@@ -158,7 +158,7 @@ class ListNode {
   }
 }
 
-export function mergeKLists(lists: ListNode[]): ListNode {
+export function mergeKLists(lists: ListNode[]): ListNode | null {
   const result = new ListNode(0);
   let current = result;
   const helper = (innerLists: ListNode[]): void => {
