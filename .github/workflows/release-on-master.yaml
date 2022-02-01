@@ -18,6 +18,7 @@ jobs:
         with:
           extra_plugins: |
             @semantic-release/git
+            semantic-release-monorepo
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.PUBLIC_NPM_TOKEN }}
