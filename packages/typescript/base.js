@@ -88,7 +88,7 @@ module.exports = {
 
     // Enforces that module boundaries (exports) are typed. @typescript-eslint/explicit-function-return-type but for exports only
     // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/explicit-module-boundary-types.md
-    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "error",
 
     // Enforces a consistent member delimiter style in interfaces and type literals
     // TODO: perhaps prettier already takes care of this and so this rule is redundant?

@@ -700,6 +700,73 @@ document.addEventListener("click", (event) => {
 }
 ```
 
+### Explicit Module Boundaries
+
+Similarly to explicit function return types, explicit module boundaries make it clear to any calling code how the module interfaces with the application. This rule is more suitable for libraries, however it can have benefits in other projects as well, such as explicit type safety when refactoring code.
+
+#### Example
+
+**Bad**
+
+```typescript
+// Should indicate that no value is returned (void)
+export function test() {
+  return;
+}
+
+// Should indicate that a number is returned
+export const fn = function () {
+  return 1;
+};
+
+// Should indicate that a string is returned
+export const arrowFn = () => "test";
+
+export default class Test {
+  // Should indicate that no value is returned (void)
+  method() {
+    return;
+  }
+}
+
+export const const log = (message: string) => void console.log(message);
+```
+
+**Good**
+
+```typescript
+export function test(): void {
+  return;
+}
+
+// A return value of type number
+export const fn = function (): number {
+  return 1;
+};
+
+// A return value of type string
+export const arrowFn = (): string => "test";
+
+export default class Test {
+  // No return value should be expected (void)
+  method(): void {
+    return;
+  }
+}
+
+export const callback: Callback<number> = (value) => {
+  return value;
+};
+```
+
+#### ESLint Rule
+
+```json
+{
+  "@typescript-eslint/explicit-module-boundary-types": "error"
+}
+```
+
 ### Explicit `any`
 
 Using the `any` type defeats the purpose of using TypeScript. When any is used, all compiler type checks around that value are ignored.
