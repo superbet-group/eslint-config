@@ -1,0 +1,16 @@
+{
+  "name": "@superbet/eslint-config-prettier",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint test --ext .js,.jsx"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-prettier": "4.0.0",
+    "prettier": "2.5.1"
+  },
+  "devDependencies": {
+    "eslint": "8.6.0"
+  }
+}

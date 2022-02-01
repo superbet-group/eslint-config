@@ -1,0 +1,8 @@
+{
+  "name": "@superbet/eslint-plugin-react",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "dependencies": {
+    "eslint-plugin-react": "7.28.0"
+  }
+}

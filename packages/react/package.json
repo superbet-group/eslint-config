@@ -1,0 +1,22 @@
+{
+  "name": "@superbet/eslint-config-react",
+  "version": "1.0.0",
+  "description": "ESLint configuration for React projects, used at Superbet",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint test --ext .js,.jsx"
+  },
+  "dependencies": {
+    "@superbet/eslint-plugin-react": "*",
+    "eslint-plugin-jsx-a11y": "6.5.1",
+    "eslint-plugin-react": "7.28.0",
+    "eslint-plugin-react-hooks": "4.3.0",
+    "eslint-plugin-react-prefer-function-component": "0.0.7"
+  },
+  "devDependencies": {
+    "@babel/core": "7.16.7",
+    "@babel/eslint-parser": "7.16.5",
+    "@babel/preset-env": "7.16.8",
+    "@babel/preset-react": "7.16.7"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "@superbet/eslint-config-legacy",
+  "version": "1.0.0",
+  "description": "ESLint configuration for legacy JavaScript projects, recommended by Superbet",
+  "main": "index.js",
+  "dependencies": {
+    "@superbet/eslint-config-base": "*"
+  }
+}
