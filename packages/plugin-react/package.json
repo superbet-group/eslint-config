@@ -1,6 +1,9 @@
 {
   "name": "@superbet/eslint-plugin-react",
   "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "src/index.js",
   "dependencies": {
     "eslint-plugin-react": "7.28.0"
@@ -10,5 +13,6 @@
   },
   "devDependencies": {
     "eslint": "8.6.0"
-  }
+  },
+  "gitHead": "ceda1edf61e173a2e1a5be43fe18103d7c8c6af8"
 }

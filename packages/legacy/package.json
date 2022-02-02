@@ -1,6 +1,9 @@
 {
   "name": "@superbet/eslint-config-legacy",
   "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "ESLint configuration for legacy JavaScript projects, recommended by Superbet",
   "main": "index.js",
   "dependencies": {
@@ -11,5 +14,6 @@
   },
   "devDependencies": {
     "eslint": "8.6.0"
-  }
+  },
+  "gitHead": "ceda1edf61e173a2e1a5be43fe18103d7c8c6af8"
 }
