@@ -1,3 +1,9 @@
+## Deprecated
+
+This package is now split into different packages based on the language / technology the rules support.
+
+Consider updating to `@superbet/eslint-config-typescript-react-jest` for similar functionality.
+
 ![@superbet/eslint-config logo](/logo.svg "ESLint logo with Superbet colors")
 
 # Superbet Shared ESLint Config
