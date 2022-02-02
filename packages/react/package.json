@@ -25,6 +25,5 @@
     "@babel/preset-env": "7.16.8",
     "@babel/preset-react": "7.16.7",
     "eslint": "8.6.0"
-  },
-  "gitHead": "ceda1edf61e173a2e1a5be43fe18103d7c8c6af8"
+  }
 }
