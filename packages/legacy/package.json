@@ -4,6 +4,12 @@
   "description": "ESLint configuration for legacy JavaScript projects, recommended by Superbet",
   "main": "index.js",
   "dependencies": {
-    "@superbet/eslint-config-base": "*"
+    "@superbet/eslint-config-base": "1.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^6.0.0 || ^7.0.0 || ^8.0.0"
+  },
+  "devDependencies": {
+    "eslint": "8.6.0"
   }
 }

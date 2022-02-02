@@ -4,5 +4,11 @@
   "main": "src/index.js",
   "dependencies": {
     "eslint-plugin-react": "7.28.0"
+  },
+  "peerDependencies": {
+    "eslint": "^6.0.0 || ^7.0.0 || ^8.0.0"
+  },
+  "devDependencies": {
+    "eslint": "8.6.0"
   }
 }

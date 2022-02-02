@@ -2,11 +2,11 @@
   "name": "@superbet/eslint-config-typescript-react-jest",
   "version": "1.0.0",
   "dependencies": {
-    "@superbet/eslint-config-base": "*",
-    "@superbet/eslint-config-typescript": "*",
-    "@superbet/eslint-config-react": "*",
-    "@superbet/eslint-config-jest": "*",
-    "@superbet/eslint-config-prettier": "*",
+    "@superbet/eslint-config-base": "1.0.0",
+    "@superbet/eslint-config-typescript": "1.0.0",
+    "@superbet/eslint-config-react": "1.0.0",
+    "@superbet/eslint-config-jest": "1.0.0",
+    "@superbet/eslint-config-prettier": "1.0.0",
     "@typescript-eslint/eslint-plugin": "5.9.1"
   },
   "peerDependencies": {

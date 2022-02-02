@@ -7,16 +7,20 @@
     "test": "eslint test --ext .js,.jsx"
   },
   "dependencies": {
-    "@superbet/eslint-plugin-react": "*",
+    "@superbet/eslint-plugin-react": "1.0.0",
     "eslint-plugin-jsx-a11y": "6.5.1",
     "eslint-plugin-react": "7.28.0",
     "eslint-plugin-react-hooks": "4.3.0",
     "eslint-plugin-react-prefer-function-component": "0.0.7"
   },
+  "peerDependencies": {
+    "eslint": "^6.0.0 || ^7.0.0 || ^8.0.0"
+  },
   "devDependencies": {
     "@babel/core": "7.16.7",
     "@babel/eslint-parser": "7.16.5",
     "@babel/preset-env": "7.16.8",
-    "@babel/preset-react": "7.16.7"
+    "@babel/preset-react": "7.16.7",
+    "eslint": "8.6.0"
   }
 }
