@@ -900,7 +900,7 @@ It's useful in Yarn/Lerna workspaces, were it's possible to import a sibling pac
 
 Given the following directory structure:
 
-```sh
+```bash
 my-project
 ├── packages
 │   ├── foo
