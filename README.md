@@ -52,4 +52,3 @@ _Using `.eslintrc.js` file_
 ## Suggestions?
 
 Create a discussion on [GitHub](/discussions) or [learn how to make a contribution](https://github.com/firstcontributions/first-contributions).
-
